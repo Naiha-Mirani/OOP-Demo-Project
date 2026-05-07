@@ -40,7 +40,7 @@ This project is a minimal Java console application that models an animal shelter
 ## Project Structure
 
 ```
-OOPDemo.java          ← Single file containing all classes
+AnimalKingdom.java          ← Single file containing all classes
 ```
 
 All classes in one file for simplicity. Only `Main` is `public` (Java requires the filename to match the public class).
@@ -92,18 +92,14 @@ java --version
 ### Compile
 
 ```bash
-javac OOPDemo.java
+javac AnimalKingdom.java
 ```
 
 ### Run
 
 ```bash
-java Main
+java AnimalKingdom
 ```
-
-> **Note:** The filename is `OOPDemo.java` but the entry point class is `Main`. Run with `java Main`, not `java OOPDemo`.
-
----
 
 ## Sample Output
 
